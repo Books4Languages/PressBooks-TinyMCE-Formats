@@ -15,10 +15,9 @@
  * @wordpress-plugin
  * Plugin Name:       TinyMCE Dimension
  * Plugin URI:        http://on-lingua.com/
- * Description:       Adds learning dimensions (i.e. “Form”, “Use” or
- * “Exercise”) shaped as boxes to the TinyMCE editor.
+ * Description:       Adds learning dimensions (i.e. “Form”, “Use” or “Exercise”) shaped as boxes to the TinyMCE editor.
  * Version:           0.1
- * Author:            julienCXX for My Language Skills
+ * Author:            My Language Skills
  * Author URI:        http://on-lingua.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
