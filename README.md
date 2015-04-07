@@ -1,6 +1,13 @@
 # TinyMCE-Dimension
-Extended features for TinyMCE editor
+<h1>Extended features for TinyMCE editor</h1>
+<h2>About TinyMCE-Dimension</h2>
+These plugin works with any Wordpress installation.
 
+With TinyMCE-Dimension you can split the information of one page in the 3 dimensions of language: form-use-content.
+
+We want to make more use friendly the language courses. That is the first step.
+
+<h2>General information</h2>
 <p>Our working definition of language encompasses five structural components: phonology, semantics, syntax, morphology, and pragmatics.</p>
 <ul>
 <li><strong>Phonology</strong> refers to the sounds and the intonation patterns that are associated with spoken language.</li>
