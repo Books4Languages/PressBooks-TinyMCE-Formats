@@ -13,7 +13,7 @@ To better address typical and atypical language development as well as strategie
 content, form, and use (Bloom & Lahey, 1978).
 
 
-<ul><li><strong>Form<s/trong> is the way in which meaning is represented, including speech, sign language, and writing. In the context of spoken language, form encompasses phonology, morphology, and syntax. Finally,</li>
+<ul><li><strong>Form</strong> is the way in which meaning is represented, including speech, sign language, and writing. In the context of spoken language, form encompasses phonology, morphology, and syntax. Finally,</li>
 <li><strong>use</strong> refers to the function of language in context.</li>
 <li><strong>Content</strong> refers to the semantics of language—the concepts and ideas that are encoded in words.</li></ul>
 
