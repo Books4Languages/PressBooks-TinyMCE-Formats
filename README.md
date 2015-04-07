@@ -9,7 +9,7 @@ We want to make more use friendly the language courses. That is the first step.
 
 We also recommended the use of <!--nextpage--> every time you want to split the scroll in different pages more easy to read and find.
 
-BECAUSE THE FIRST STEAP FOR TEACH IS ORGANICE THE IDEAS
+<strong>BECAUSE THE FIRST STEAP FOR TEACH IS ORGANICE THE IDEAS</strong>
 
 <h2>General information</h2>
 <p>Our working definition of language encompasses five structural components: phonology, semantics, syntax, morphology, and pragmatics.</p>
