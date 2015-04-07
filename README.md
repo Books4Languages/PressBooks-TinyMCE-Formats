@@ -14,7 +14,9 @@ content, form, and use (Bloom & Lahey, 1978).
 
 
 <ul><li><strong>Form</strong> is the way in which meaning is represented, including speech, sign language, and writing. In the context of spoken language, form encompasses phonology, morphology, and syntax. Finally,</li>
-<li><strong>use</strong> refers to the function of language in context.</li>
+<li><strong>Use</strong> refers to the function of language in context.</li>
 <li><strong>Content</strong> refers to the semantics of language—the concepts and ideas that are encoded in words.</li></ul>
 
-Although each of these aspects of language can be identified separately, they are inherently interconnected elements in communication (Bloom & Lahey). Language problems may arise when there is a disruption within any one component of the model or in their integration. The following sections consider the typical development of each of these aspects of language.
+Although each of these aspects of language can be identified separately, they are inherently interconnected elements in communication (Bloom & Lahey). Language problems may arise when there is a disruption within any one component of the model or in their integration. 
+
+In order to increase the information, we add one paper to the box. TinyMCE-Dimension/Information
