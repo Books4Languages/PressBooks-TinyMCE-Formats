@@ -1,5 +1,5 @@
 # TinyMCE-Dimension
-<h1>Extended features for TinyMCE editor</h1>
+Extended features for TinyMCE editor
 <h2>About TinyMCE-Dimension</h2>
 These plugin works with any Wordpress installation.
 
