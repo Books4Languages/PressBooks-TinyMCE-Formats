@@ -124,6 +124,12 @@ class TinyMCE_Dimension_Admin {
 				'block' => 'h3'
 			),
 			array(
+				'title' => 'Text box',
+				'block' => 'div',
+				'classes' => 'textbox',
+				'wrapper' => false,
+			),
+			array(
 				'title' => 'Form',
 				'block' => 'div',
 				'classes' => 'box',
