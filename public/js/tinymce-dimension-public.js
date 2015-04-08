@@ -2,7 +2,7 @@
  *   Prompts for copying a text.
  */
 var copyPrompt = function(text) {
-	window.prompt("Here is the link:", text);
+	window.prompt("Link to this element:", text);
 }
 
 /**
@@ -25,7 +25,10 @@ var copyLinkElement = function(boxID) {
 	footer.appendChild(a);
 	a.href = "javascript:copyPrompt('" + removeLastHashPart(document.URL)
 		+ "#" + boxID + "');";
-	a.innerHTML = "Link to this element";
+
+	/* Link text */
+	a.innerHTML = "&";
+
 	return footer;
 }
 
