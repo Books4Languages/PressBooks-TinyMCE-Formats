@@ -71,6 +71,7 @@ Additional information is available in the `Information` directory.
 == Screenshots ==
 
 1. An example of use of boxes in the dashboard.
+1. The format drop-down with the custom formats.
 
 == Changelog ==
 

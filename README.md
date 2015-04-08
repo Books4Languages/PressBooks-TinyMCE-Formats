@@ -63,6 +63,9 @@ Additional information is available in the `Information` directory.
 ### An example of use of boxes in the dashboard.
 ![An example of use of boxes in the dashboard.](assets/screenshot-1.jpg)
 
+### The format drop-down with the custom formats.
+![The format drop-down with the custom formats.](assets/screenshot-2.jpg)
+
 ## Changelog
 
 ### 0.1
