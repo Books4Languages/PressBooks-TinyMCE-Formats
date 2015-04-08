@@ -1,4 +1,4 @@
-=== TinyMCE-Formats ===
+=== TinyMCE Formats ===
 Contributors: 
 Donate link: 
 Tags: learning, languages, tinymce
