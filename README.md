@@ -73,6 +73,9 @@ activated this plugin (tested on 2.4.2).
 
 ## Changelog
 
+### 0.3
+* Renamed the plugin to *TinyMCE-Formats*.
+
 ### 0.2
 * Smaller padding within boxes.
 * Smaller “link to a box” anchor text.

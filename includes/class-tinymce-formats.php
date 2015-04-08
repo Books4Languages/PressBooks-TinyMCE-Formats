@@ -69,7 +69,7 @@ class TinyMCE_Formats {
 	public function __construct() {
 
 		$this->plugin_name = 'tinymce-formats';
-		$this->version = '0.2';
+		$this->version = '0.3';
 
 		$this->load_dependencies();
 		$this->set_locale();

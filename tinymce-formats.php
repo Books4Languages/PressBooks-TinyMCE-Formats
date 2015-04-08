@@ -16,7 +16,7 @@
  * Plugin Name:       TinyMCE Formats
  * Plugin URI:        http://on-lingua.com/
  * Description:       Adds learning formats (i.e. “Form”, “Use” or “Exercise”) shaped as boxes to the TinyMCE editor.
- * Version:           0.2
+ * Version:           0.3
  * Author:            My Language Skills
  * Author URI:        http://on-lingua.com/
  * License:           GPL-2.0+
