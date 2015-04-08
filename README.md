@@ -60,8 +60,8 @@ Additional information is available in the `Information` directory.
 
 ## Screenshots
 
-1. ![An example of use of boxes in the dashboard.](assets/screenshot-1.jpg
-   "An example of use of boxes in the dashboard")
+### An example of use of boxes in the dashboard.
+![An example of use of boxes in the dashboard.](assets/screenshot-1.jpg)
 
 ## Changelog
 
