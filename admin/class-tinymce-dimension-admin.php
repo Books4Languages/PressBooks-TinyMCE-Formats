@@ -137,7 +137,7 @@ class TinyMCE_Dimension_Admin {
 					'id' => 'form',
 					'title' => 'Form'
 				),
-				'wrapper' => 'true'
+				'wrapper' => 'false'
 			),
 			array(
 				'title' => 'Use',
@@ -147,7 +147,7 @@ class TinyMCE_Dimension_Admin {
 					'id' => 'use',
 					'title' => 'Use'
 				),
-				'wrapper' => 'true'
+				'wrapper' => 'false'
 			),
 			array(
 				'title' => 'Exercise',
@@ -157,7 +157,7 @@ class TinyMCE_Dimension_Admin {
 					'id' => 'exercise',
 					'title' => 'Exercise'
 				),
-				'wrapper' => 'true'
+				'wrapper' => 'false'
 			)
 		);
 		$settings['style_formats'] = json_encode( $style_formats );
