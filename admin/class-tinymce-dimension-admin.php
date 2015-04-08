@@ -100,4 +100,70 @@ class TinyMCE_Dimension_Admin {
 
 	}
 
+	/**
+	 * Add the plugin's TinyMCE styles.
+	 *
+	 * @since    0.1
+	 * @param    array $settings The currently active TinyMCE settings,
+	 * including styles.
+	 * @return   array The array from the input, with the added styles.
+	 */
+	public function add_mce_styles( $settings ) {
+
+		$style_formats = array(
+			array(
+				'title' => 'Title',
+				'block' => 'h1'
+			),
+			array(
+				'title' => 'Subtitle 1',
+				'block' => 'h2'
+			),
+			array(
+				'title' => 'Subtitle 2',
+				'block' => 'h3'
+			),
+			array(
+				'title' => 'Form',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'form',
+					'title' => 'Form'
+				),
+				'wrapper' => 'true'
+			),
+			array(
+				'title' => 'Use',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'use',
+					'title' => 'Use'
+				),
+				'wrapper' => 'true'
+			),
+			array(
+				'title' => 'Exercise',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'exercise',
+					'title' => 'Exercise'
+				),
+				'wrapper' => 'true'
+			)
+		);
+		$settings['style_formats'] = json_encode( $style_formats );
+
+		if ( ! empty( $settings['content_css'] ) ) {
+			$settings['content_css'] .= ',';
+		}
+		$settings['content_css'] .= plugin_dir_url( __FILE__ )
+			. '../public/css/tinymce-dimension-public.css';
+
+		return $settings;
+
+	}
+
 }

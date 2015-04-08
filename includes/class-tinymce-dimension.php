@@ -155,6 +155,11 @@ class TinyMCE_Dimension {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+		// forced priority to 11, in order to execute after PressBooks'
+		// format removing
+		$this->loader->add_filter( 'tiny_mce_before_init',
+			$plugin_admin, 'add_mce_styles', 11 );
+
 	}
 
 	/**

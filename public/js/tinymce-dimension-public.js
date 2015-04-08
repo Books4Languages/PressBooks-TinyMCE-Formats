@@ -1,32 +1,43 @@
-(function( $ ) {
-	'use strict';
+/**
+ *   Prompts for copying a text.
+ */
+var copyPrompt = function(text) {
+	window.prompt("Here is the link:", text);
+}
 
-	/**
-	 * All of the code for your public-facing JavaScript source
-	 * should reside in this file.
-	 *
-	 * Note that this assume you're going to use jQuery, so it prepares
-	 * the $ function reference to be used within the scope of this
-	 * function.
-	 *
-	 * From here, you're able to define handlers for when the DOM is
-	 * ready:
-	 *
-	 * $(function() {
-	 *
-	 * });
-	 *
-	 * Or when the window is loaded:
-	 *
-	 * $( window ).load(function() {
-	 *
-	 * });
-	 *
-	 * ...and so on.
-	 *
-	 * Remember that ideally, we should not attach any more than a single DOM-ready or window-load handler
-	 * for any particular page. Though other scripts in WordPress core, other plugins, and other themes may
-	 * be doing this, we should try to minimize doing that in our own work.
-	 */
+/**
+ * Removes the "#id" at the end of an url.
+ */
+var removeLastHashPart = function(url) {
+	var newUrl = '';
+	for (var i = 0, length = url.length; i < length && url[i] !== '#'; i++) {
+		newUrl += url[i];
+	}
+	return newUrl;
+}
 
-})( jQuery );
+/**
+ * Adds a link prompt at the end of a div, given its id.
+ */
+var copyLinkElement = function(boxID) {
+	var footer = document.createElement("footer");
+	var a = document.createElement("a");
+	footer.appendChild(a);
+	a.href = "javascript:copyPrompt('" + removeLastHashPart(document.URL)
+		+ "#" + boxID + "');";
+	a.innerHTML = "Link to this element";
+	return footer;
+}
+
+/* Adding a link at the end of each box */
+var addLinks = function() {
+	var boxes = document.getElementsByClassName("box");
+	for (var i in boxes) {
+		boxes[i].appendChild(copyLinkElement(boxes[i].id));
+	}
+}
+
+/* jQuery-free event load to prevent conflicts with Table of Contents pop-up */
+window.onload = function(event) {
+	addLinks();
+}
