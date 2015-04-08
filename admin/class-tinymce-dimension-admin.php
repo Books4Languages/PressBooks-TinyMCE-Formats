@@ -110,20 +110,59 @@ class TinyMCE_Dimension_Admin {
 	 */
 	public function add_mce_styles( $settings ) {
 
+		/*
+		 * To add a new format to the TinyMCE drop-down format list,
+		 * just add it to the array below.
+		 * You can see more examples in PressBooks plugin, in
+		 * includes/class-pb-editor.php.
+		 * Information on parameters can be found at:
+		 * http://www.tinymce.com/wiki.php/Configuration:formats
+		 * section “Format parameters”.
+		 */
 		$style_formats = array(
+			/*
 			array(
+				// Appears in the drop-down list
 				'title' => 'Title',
+				// Defines the HTML tag used to wrap elements
+				// into
+				// here, it is a block element, suited for
+				// “paragraph”-wide formatting
 				'block' => 'h1'
 			),
 			array(
-				'title' => 'Subtitle 1',
-				'block' => 'h2'
+				'title' => 'Green',
+				// Defines the HTML tag used to wrap elements
+				// into
+				// Here, it is an inline element, suited for
+				// “character”-wide formatting
+				'inline' => 'span'
+				// Defines the classe(s) the HTML tag used by
+				// this format has to have
+				// Useful for selecting it in CSS
+				'classes' => 'green'
 			),
 			array(
-				'title' => 'Subtitle 2',
-				'block' => 'h3'
+				'title' => 'Green emphasis',
+				'inline' => 'em'
+				'classes' => 'green'
 			),
 			array(
+				'title' => 'Superblock',
+				'block' => 'div',
+				// Classes are separated by spaces
+				'classes' => 'box superblock',
+				// Defines the HTML attributes other than
+				// classes the tag used by this format has to
+				// have
+				'attributes' => array(
+					'id' => 'sblock',
+				),
+				// Set this to true to define a format made of
+				// an HTML block, wrapping other HTML block tags
+				'wrapper' => 'false'
+			),*/
+			array( // from PressBooks
 				'title' => 'Text box',
 				'block' => 'div',
 				'classes' => 'textbox',
