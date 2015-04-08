@@ -47,7 +47,7 @@ are encoded in words.
 Although each of these aspects of language can be identified separately, they
 are inherently interconnected elements in communication (Bloom & Lahey).
 Language problems may arise when there is a disruption within any one component
-of the model or in their integration. 
+of the model or in their integration.
 
 In order to increase the information, we add one paper to the box.
 
@@ -60,11 +60,8 @@ Additional information is available in the `Information` directory.
 
 ## Screenshots
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. ![An example of use of boxes in the dashboard.](assets/screenshot-1.jpg
+   "An example of use of boxes in the dashboard")
 
 ## Changelog
 
