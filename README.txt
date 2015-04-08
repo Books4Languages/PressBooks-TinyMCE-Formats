@@ -1,4 +1,4 @@
-=== TinyMCE Dimensions ===
+=== TinyMCE-Dimension ===
 Contributors: 
 Donate link: 
 Tags: learning, languages, tinymce

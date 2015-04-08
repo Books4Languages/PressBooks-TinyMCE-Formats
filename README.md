@@ -1,4 +1,4 @@
-# TinyMCE Dimensions
+# TinyMCE-Dimension
 
 ## Description
 
