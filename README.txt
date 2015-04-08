@@ -4,7 +4,7 @@ Donate link:
 Tags: learning, languages, tinymce
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,14 @@ activated this plugin (tested on 2.4.2).
 1. The format drop-down with the custom formats.
 
 == Changelog ==
+
+= 0.2 =
+* Smaller padding within boxes.
+* Smaller “link to a box” anchor text.
+* Removed duplicate formats.
+* Added “Text box” format (from PressBooks).
+* Added PressBooks in required plugins.
+* Code comments for easier plugin extending.
 
 = 0.1 =
 * Initial version.

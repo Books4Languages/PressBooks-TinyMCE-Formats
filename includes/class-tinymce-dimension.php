@@ -69,7 +69,7 @@ class TinyMCE_Dimension {
 	public function __construct() {
 
 		$this->plugin_name = 'tinymce-dimension';
-		$this->version = '0.1';
+		$this->version = '0.2';
 
 		$this->load_dependencies();
 		$this->set_locale();

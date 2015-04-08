@@ -73,6 +73,14 @@ activated this plugin (tested on 2.4.2).
 
 ## Changelog
 
+### 0.2
+* Smaller padding within boxes.
+* Smaller “link to a box” anchor text.
+* Removed duplicate formats.
+* Added “Text box” format (from PressBooks).
+* Added PressBooks in required plugins.
+* Code comments for easier plugin extending.
+
 ### 0.1
 * Initial version.
 
