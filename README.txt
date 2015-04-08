@@ -63,6 +63,11 @@ In order to increase the information, we add one paper to the box.
 
 Additional information is available in the `Information` directory.
 
+== Requirements ==
+
+This plugin uses some styles from PressBooks, thus you should have installed and
+activated this plugin (tested on 2.4.2).
+
 == Installation ==
 
 1. Clone (or copy) this repository to the `/wp-content/plugins/` directory
