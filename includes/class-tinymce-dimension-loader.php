@@ -6,8 +6,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  */
 
 /**
@@ -17,11 +17,11 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  * @author     julienCXX for My Language Skills <software@chmodplusx.eu>
  */
-class TinyMCE_Dimension_Loader {
+class TinyMCE_Formats_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.

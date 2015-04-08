@@ -10,18 +10,18 @@
  *
  * @link              http://on-lingua.com
  * @since             0.1
- * @package           TinyMCE_Dimension
+ * @package           TinyMCE_Formats
  *
  * @wordpress-plugin
- * Plugin Name:       TinyMCE Dimension
+ * Plugin Name:       TinyMCE Formats
  * Plugin URI:        http://on-lingua.com/
- * Description:       Adds learning dimensions (i.e. “Form”, “Use” or “Exercise”) shaped as boxes to the TinyMCE editor.
+ * Description:       Adds learning formats (i.e. “Form”, “Use” or “Exercise”) shaped as boxes to the TinyMCE editor.
  * Version:           0.2
  * Author:            My Language Skills
  * Author URI:        http://on-lingua.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       tinymce-dimension
+ * Text Domain:       tinymce-formats
  * Domain Path:       /languages
  */
 
@@ -32,20 +32,20 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-tinymce-dimension-activator.php
+ * This action is documented in includes/class-tinymce-formats-activator.php
  */
 function activate_plugin_name() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-dimension-activator.php';
-	TinyMCE_Dimension_Activator::activate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-formats-activator.php';
+	TinyMCE_Formats_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-tinymce-dimension-deactivator.php
+ * This action is documented in includes/class-tinymce-formats-deactivator.php
  */
 function deactivate_plugin_name() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-dimension-deactivator.php';
-	TinyMCE_Dimension_Deactivator::deactivate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-formats-deactivator.php';
+	TinyMCE_Formats_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_plugin_name' );
@@ -55,7 +55,7 @@ register_deactivation_hook( __FILE__, 'deactivate_plugin_name' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-dimension.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-formats.php';
 
 /**
  * Begins execution of the plugin.
@@ -68,7 +68,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-tinymce-dimension.php';
  */
 function run_plugin_name() {
 
-	$plugin = new TinyMCE_Dimension();
+	$plugin = new TinyMCE_Formats();
 	$plugin->run();
 
 }

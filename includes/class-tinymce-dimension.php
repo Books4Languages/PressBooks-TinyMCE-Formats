@@ -9,8 +9,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  */
 
 /**
@@ -23,11 +23,11 @@
  * version of the plugin.
  *
  * @since      0.1
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  * @author     julienCXX for My Language Skills <software@chmodplusx.eu>
  */
-class TinyMCE_Dimension {
+class TinyMCE_Formats {
 
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power
@@ -35,7 +35,7 @@ class TinyMCE_Dimension {
 	 *
 	 * @since    0.1
 	 * @access   protected
-	 * @var      TinyMCE_Dimension_Loader    $loader    Maintains and registers all hooks for the plugin.
+	 * @var      TinyMCE_Formats_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
 	protected $loader;
 
@@ -68,7 +68,7 @@ class TinyMCE_Dimension {
 	 */
 	public function __construct() {
 
-		$this->plugin_name = 'tinymce-dimension';
+		$this->plugin_name = 'tinymce-formats';
 		$this->version = '0.2';
 
 		$this->load_dependencies();
@@ -83,10 +83,10 @@ class TinyMCE_Dimension {
 	 *
 	 * Include the following files that make up the plugin:
 	 *
-	 * - TinyMCE_Dimension_Loader. Orchestrates the hooks of the plugin.
-	 * - TinyMCE_Dimension_i18n. Defines internationalization functionality.
-	 * - TinyMCE_Dimension_Admin. Defines all hooks for the admin area.
-	 * - TinyMCE_Dimension_Public. Defines all hooks for the public side of the site.
+	 * - TinyMCE_Formats_Loader. Orchestrates the hooks of the plugin.
+	 * - TinyMCE_Formats_i18n. Defines internationalization functionality.
+	 * - TinyMCE_Formats_Admin. Defines all hooks for the admin area.
+	 * - TinyMCE_Formats_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
@@ -100,33 +100,33 @@ class TinyMCE_Dimension {
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-tinymce-dimension-loader.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-tinymce-formats-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-tinymce-dimension-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-tinymce-formats-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-tinymce-dimension-admin.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-tinymce-formats-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-tinymce-dimension-public.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-tinymce-formats-public.php';
 
-		$this->loader = new TinyMCE_Dimension_Loader();
+		$this->loader = new TinyMCE_Formats_Loader();
 
 	}
 
 	/**
 	 * Define the locale for this plugin for internationalization.
 	 *
-	 * Uses the TinyMCE_Dimension_i18n class in order to set the domain and to register the hook
+	 * Uses the TinyMCE_Formats_i18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
 	 * @since    0.1
@@ -134,7 +134,7 @@ class TinyMCE_Dimension {
 	 */
 	private function set_locale() {
 
-		$plugin_i18n = new TinyMCE_Dimension_i18n();
+		$plugin_i18n = new TinyMCE_Formats_i18n();
 		$plugin_i18n->set_domain( $this->get_plugin_name() );
 
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
@@ -150,7 +150,7 @@ class TinyMCE_Dimension {
 	 */
 	private function define_admin_hooks() {
 
-		$plugin_admin = new TinyMCE_Dimension_Admin( $this->get_plugin_name(), $this->get_version() );
+		$plugin_admin = new TinyMCE_Formats_Admin( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
@@ -171,7 +171,7 @@ class TinyMCE_Dimension {
 	 */
 	private function define_public_hooks() {
 
-		$plugin_public = new TinyMCE_Dimension_Public( $this->get_plugin_name(), $this->get_version() );
+		$plugin_public = new TinyMCE_Formats_Public( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
@@ -202,7 +202,7 @@ class TinyMCE_Dimension {
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
 	 * @since     0.1
-	 * @return    TinyMCE_Dimension_Loader    Orchestrates the hooks of the plugin.
+	 * @return    TinyMCE_Formats_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
 		return $this->loader;

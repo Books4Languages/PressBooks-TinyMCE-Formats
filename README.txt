@@ -1,4 +1,4 @@
-=== TinyMCE-Dimension ===
+=== TinyMCE-Formats ===
 Contributors: 
 Donate link: 
 Tags: learning, languages, tinymce
@@ -8,14 +8,14 @@ Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Extended language dimension features for TinyMCE Editor.
+Extended language formats features for TinyMCE Editor.
 
 == Description ==
 
 = About =
 
-With TinyMCE-Dimension you can split the information of one page in the 3
-dimensions of language: form, use and content.
+With TinyMCE-Formats you can split the information of one page in the 3
+formats of language: form, use and content.
 
 We want to make the language courses more user-friendly. This is the first step.
 

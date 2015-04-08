@@ -6,8 +6,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/admin
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/admin
  */
 
 /**
@@ -16,11 +16,11 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/admin
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/admin
  * @author     julienCXX for My Language Skills <software@chmodplusx.eu>
  */
-class TinyMCE_Dimension_Admin {
+class TinyMCE_Formats_Admin {
 
 	/**
 	 * The ID of this plugin.
@@ -65,15 +65,15 @@ class TinyMCE_Dimension_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in TinyMCE_Dimension_Loader as all of the hooks are defined
+		 * defined in TinyMCE_Formats_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The TinyMCE_Dimension_Loader will then create the relationship
+		 * The TinyMCE_Formats_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/tinymce-dimension-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/tinymce-formats-admin.css', array(), $this->version, 'all' );
 
 	}
 
@@ -88,15 +88,15 @@ class TinyMCE_Dimension_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in TinyMCE_Dimension_Loader as all of the hooks are defined
+		 * defined in TinyMCE_Formats_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The TinyMCE_Dimension_Loader will then create the relationship
+		 * The TinyMCE_Formats_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/tinymce-dimension-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
 
@@ -206,7 +206,7 @@ class TinyMCE_Dimension_Admin {
 			$settings['content_css'] .= ',';
 		}
 		$settings['content_css'] .= plugin_dir_url( __FILE__ )
-			. '../public/css/tinymce-dimension-public.css';
+			. '../public/css/tinymce-formats-public.css';
 
 		return $settings;
 

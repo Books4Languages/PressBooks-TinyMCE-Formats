@@ -6,8 +6,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      0.1
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  * @author     julienCXX for My Language Skills <software@chmodplusx.eu>
  */
-class TinyMCE_Dimension_Deactivator {
+class TinyMCE_Formats_Deactivator {
 
 	/**
 	 * Short Description. (use period)

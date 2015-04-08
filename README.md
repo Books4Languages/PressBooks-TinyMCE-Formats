@@ -5,7 +5,7 @@
 ### About
 
 With TinyMCE-Formats you can split the information of one page in the 3
-dimensions of language: form, use and content.
+formats of language: form, use and content.
 
 We want to make the language courses more user-friendly. This is the first step.
 

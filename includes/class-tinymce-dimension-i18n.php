@@ -9,8 +9,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  */
 
 /**
@@ -20,11 +20,11 @@
  * so that it is ready for translation.
  *
  * @since      0.1
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/includes
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/includes
  * @author     julienCXX for My Language Skills <software@chmodplusx.eu>
  */
-class TinyMCE_Dimension_i18n {
+class TinyMCE_Formats_i18n {
 
 	/**
 	 * The domain specified for this plugin.

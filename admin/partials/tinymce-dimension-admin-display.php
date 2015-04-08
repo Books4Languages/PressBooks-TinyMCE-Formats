@@ -8,8 +8,8 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
- * @subpackage TinyMCE_Dimension/admin/partials
+ * @package    TinyMCE_Formats
+ * @subpackage TinyMCE_Formats/admin/partials
  */
 ?>
 

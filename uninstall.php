@@ -22,7 +22,7 @@
  * @link       http://on-lingua.com
  * @since      0.1
  *
- * @package    TinyMCE_Dimension
+ * @package    TinyMCE_Formats
  */
 
 // If uninstall not called from WordPress, then exit.
