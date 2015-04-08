@@ -3,7 +3,7 @@
  * included in this file.
  */
 .box {
-	padding: 0 3% 1%;
+	padding: 0 5px 1%;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 5px;
@@ -20,7 +20,7 @@
 	font-variant: small-caps;
 	background-color: black;
 	padding: 15px 0 15px;
-	margin: 0 -3% 1%;
+	margin: 0 -5px 1%;
 	border-radius: 5px 5px 0 0;
 }
 
@@ -38,6 +38,6 @@
 
 /* Used in "Link to this element" */
 .box footer {
-	padding-top: 10px;
+	padding-top: 3px;
 	text-align: right;
 }
