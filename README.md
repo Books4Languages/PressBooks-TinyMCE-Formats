@@ -1,4 +1,4 @@
-# TinyMCE-Formats
+# TinyMCE Formats
 
 ## Description
 
