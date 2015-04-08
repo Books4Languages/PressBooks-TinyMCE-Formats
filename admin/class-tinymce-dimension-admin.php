@@ -114,7 +114,8 @@ class TinyMCE_Dimension_Admin {
 		 * To add a new format to the TinyMCE drop-down format list,
 		 * just add it to the array below.
 		 * You can see more examples in PressBooks plugin, in
-		 * includes/class-pb-editor.php.
+		 * includes/class-pb-editor.php (get it at
+		 * https://github.com/pressbooks/pressbooks)
 		 * Information on parameters can be found at:
 		 * http://www.tinymce.com/wiki.php/Configuration:formats
 		 * section “Format parameters”.
