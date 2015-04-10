@@ -10,9 +10,6 @@ formats of language: form, use and content.
 
 We want to make the language courses more user-friendly. This is the first step.
 
-We also recommend the use of the `<!--nextpage-->` tag every time you want to
-split the screen in different pages, so it is easier to read and find.
-
 **Because the first step for teaching is organizing the ideas.**
 
 ### General Information
