@@ -1,11 +1,12 @@
-# TinyMCE Formats
+# PressBooks-TinyMCE Formats
 
 ## Description
 
 ### About
 
-With TinyMCE-Formats you can split the information of one page in the 3
+With PressBooks-TinyMCE-Formats you can split the information of one page in the 3
 formats of language: form, use and content.
+(Future development news formats for well structured page)
 
 We want to make the language courses more user-friendly. This is the first step.
 
