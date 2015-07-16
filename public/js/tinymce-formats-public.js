@@ -27,7 +27,7 @@ var copyLinkElement = function(boxID) {
 		+ "#" + boxID + "');";
 
 	/* Link text */
-	a.innerHTML = "&";
+	a.innerHTML = "&#x2398";
 
 	return footer;
 }
