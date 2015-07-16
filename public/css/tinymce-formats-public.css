@@ -23,17 +23,21 @@
 	margin: 0 -5px 1%;
 	border-radius: 5px 5px 0 0;
 }
-
+#introduction::before {
+	background-color: #E15B64;
+}
 #form::before {
-	background-color: #00a014;
+	background-color: #F27E62;
 }
 
 #use::before {
-	background-color: #1e3ea0;
+	background-color: #FBB36B;
 }
-
+#extension::before {
+	background-color: #ABBC85;
+}
 #exercise::before {
-	background-color: #cc7712;
+	background-color: #849B89;
 }
 
 /* Used in "Link to this element" */
