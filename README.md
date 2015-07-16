@@ -75,6 +75,10 @@ activated this plugin (tested on 2.4.2).
 ### The format drop-down with the custom formats.
 ![The format drop-down with the custom formats.](assets/screenshot-4.png)
 
+### An example of use of boxes in the front-end.
+![An example of use of boxes in the front-end.](assets/screenshot-5.png)
+
+
 ## Changelog
 ### 0.4
 * New: Introduction box
