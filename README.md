@@ -10,9 +10,6 @@ formats of language: form, use and content.
 
 We want to make the language courses more user-friendly. This is the first step.
 
-We also recommend the use of the `<!--nextpage-->` tag every time you want to
-split the screen in different pages, so it is easier to read and find.
-
 **Because the first step for teaching is organizing the ideas.**
 
 ### General Information
@@ -55,6 +52,10 @@ of the model or in their integration.
 In order to increase the information, we add one paper to the box.
 
 Additional information is available in the `Information` directory.
+
+## Important information
+You can not use more than one box in one page if you want to make dynamic queries.
+
 
 ## Requirements
 
