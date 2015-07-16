@@ -70,8 +70,10 @@ activated this plugin (tested on 2.4.2).
 ![The format drop-down with the custom formats.](assets/screenshot-2.jpg)
 
 ## Changelog
-### 0.3.1
-* Renamed the file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
+### 0.4
+* New: Introduction box
+* New: of Extension box
+* Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
 
 ### 0.3
 * Renamed the plugin to *TinyMCE-Formats*.
