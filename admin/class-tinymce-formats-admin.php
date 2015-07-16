@@ -170,12 +170,32 @@ class TinyMCE_Formats_Admin {
 				'wrapper' => false,
 			),
 			array(
+				'title' => 'Introduction',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'introduction',
+					'title' => 'Introduction'
+				),
+				'wrapper' => 'false'
+			),
+			array(
 				'title' => 'Form',
 				'block' => 'div',
 				'classes' => 'box',
 				'attributes' => array(
 					'id' => 'form',
 					'title' => 'Form'
+				),
+				'wrapper' => 'false'
+			),
+			array(
+				'title' => 'Extension',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'extension',
+					'title' => 'Extension'
 				),
 				'wrapper' => 'false'
 			),
