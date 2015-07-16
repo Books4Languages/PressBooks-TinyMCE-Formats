@@ -35,13 +35,14 @@ strategies of prevention and intervention, the five structural components of
 language may be simplified into three essential aspects of communication:
 content, form, and use (Bloom & Lahey, 1978).
 
+* **Introduction** is the place were we offer importan information from past levels.
 * **Form** is the way in which meaning is represented, including speech, sign
   language, and writing. In the context of spoken language, form encompasses
   phonology, morphology, and syntax.
 * **Use** refers to the function of language in context.
+* **Extension** refers to the implication of content and translation to different languages.
 * **Content** refers to the semantics of language—the concepts and ideas that
 are encoded in words.
-
 Although each of these aspects of language can be identified separately, they
 are inherently interconnected elements in communication (Bloom & Lahey).
 Language problems may arise when there is a disruption within any one component
@@ -92,3 +93,5 @@ activated this plugin (tested on 2.4.2).
 ## Credits
 
 Uses the [WordPress Plugin Boilerplate](http://wppb.io/).
+
+Color palette by somurmujo http://adobe.ly/1pJTUkD

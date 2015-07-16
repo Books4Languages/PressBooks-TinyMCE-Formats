@@ -3,8 +3,8 @@ Contributors:
 Donate link: 
 Tags: learning, languages, tinymce
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 0.3
+Tested up to: 4.2.2
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,10 +47,12 @@ strategies of prevention and intervention, the five structural components of
 language may be simplified into three essential aspects of communication:
 content, form, and use (Bloom & Lahey, 1978).
 
+* **Introduction** is the place were we offer importan information from past levels.
 * **Form** is the way in which meaning is represented, including speech, sign
   language, and writing. In the context of spoken language, form encompasses
   phonology, morphology, and syntax.
 * **Use** refers to the function of language in context.
+* **Extension** refers to the implication of content and translation to different languages.
 * **Content** refers to the semantics of language—the concepts and ideas that
 are encoded in words.
 
@@ -79,6 +81,10 @@ activated this plugin (tested on 2.4.2).
 1. The format drop-down with the custom formats.
 
 == Changelog ==
+= 0.4 =
+* New: Introduction box
+* New: of Extension box
+* Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
 
 = 0.3 =
 * Renamed the plugin to *TinyMCE-Formats*.
@@ -97,3 +103,6 @@ activated this plugin (tested on 2.4.2).
 == Credits ==
 
 Uses the [WordPress Plugin Boilerplate](http://wppb.io/).
+
+Color palette by somurmujo http://adobe.ly/1pJTUkD
+
