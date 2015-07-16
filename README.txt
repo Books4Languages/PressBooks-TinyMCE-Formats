@@ -1,7 +1,7 @@
 === TinyMCE Formats ===
 Contributors: 
 Donate link: 
-Tags: learning, languages, tinymce
+Tags: learning, languages, tinymce, Pressbooks
 Requires at least: 3.0.1
 Tested up to: 4.2.2
 Stable tag: 0.4

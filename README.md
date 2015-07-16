@@ -10,6 +10,9 @@ formats of language: form, use and content.
 
 We want to make the language courses more user-friendly. This is the first step.
 
+We also recommend the use of the `<!--nextpage-->` tag every time you want to
+split the screen in different pages, so it is easier to read and find.
+
 **Because the first step for teaching is organizing the ideas.**
 
 ### General Information
@@ -43,6 +46,7 @@ content, form, and use (Bloom & Lahey, 1978).
 * **Extension** refers to the implication of content and translation to different languages.
 * **Content** refers to the semantics of language—the concepts and ideas that
 are encoded in words.
+
 Although each of these aspects of language can be identified separately, they
 are inherently interconnected elements in communication (Bloom & Lahey).
 Language problems may arise when there is a disruption within any one component
