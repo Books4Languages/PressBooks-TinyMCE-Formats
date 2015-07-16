@@ -70,10 +70,10 @@ activated this plugin (tested on 2.4.2).
 ## Screenshots
 
 ### An example of use of boxes in the dashboard.
-![An example of use of boxes in the dashboard.](assets/screenshot-1.jpg)
+![An example of use of boxes in the dashboard.](assets/screenshot-3)
 
 ### The format drop-down with the custom formats.
-![The format drop-down with the custom formats.](assets/screenshot-2.jpg)
+![The format drop-down with the custom formats.](assets/screenshot-4)
 
 ## Changelog
 ### 0.4
