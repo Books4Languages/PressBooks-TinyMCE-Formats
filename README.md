@@ -1,5 +1,8 @@
 # PressBooks-TinyMCE Formats
 
+///////// aún no se han adaptado las css a esta version 0.5 ///////
+
+
 ## Description
 
 ### About
