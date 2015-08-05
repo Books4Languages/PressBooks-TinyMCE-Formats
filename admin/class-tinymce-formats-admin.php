@@ -190,12 +190,12 @@ class TinyMCE_Formats_Admin {
 				'wrapper' => 'false'
 			),
 			array(
-				'title' => 'Extension',
+				'title' => 'Example',
 				'block' => 'div',
 				'classes' => 'box',
 				'attributes' => array(
-					'id' => 'extension',
-					'title' => 'Extension'
+					'id' => 'example',
+					'title' => 'Example'
 				),
 				'wrapper' => 'false'
 			),
@@ -210,12 +210,42 @@ class TinyMCE_Formats_Admin {
 				'wrapper' => 'false'
 			),
 			array(
+				'title' => 'Extension',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'extension',
+					'title' => 'Extension'
+				),
+				'wrapper' => 'false'
+			)
+			array(
 				'title' => 'Exercise',
 				'block' => 'div',
 				'classes' => 'box',
 				'attributes' => array(
 					'id' => 'exercise',
 					'title' => 'Exercise'
+				),
+				'wrapper' => 'false'
+			)
+			array(
+				'title' => 'Activity',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'activity',
+					'title' => 'Activity'
+				),
+				'wrapper' => 'false'
+			)
+			array(
+				'title' => 'Task',
+				'block' => 'div',
+				'classes' => 'box',
+				'attributes' => array(
+					'id' => 'task',
+					'title' => 'Task'
 				),
 				'wrapper' => 'false'
 			)
