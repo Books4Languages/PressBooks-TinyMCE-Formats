@@ -80,10 +80,17 @@ activated this plugin (tested on 2.4.2).
 
 
 ## Changelog
+
+### 0.5
+* New: Examples box
+* New: Activities box
+* New: Task box
+
 ### 0.4
 * New: Introduction box
 * New: of Extension box
 * tweak: Change the bottom for link copy & to &#x2398
+* tweak: Renamed the plugin to *PressBooks-TinyMCE-Formats*
 * Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
 
 ### 0.3
