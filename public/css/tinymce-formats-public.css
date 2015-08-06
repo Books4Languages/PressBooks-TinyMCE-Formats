@@ -27,20 +27,36 @@
 	margin: 0 -5px 1%;
 	border-radius: 5px 5px 0 0;
 }
+
 #introduction::before {
 	background-color: #E15B64;
 }
+
 #form::before {
+	background-color: #F27E62;
+}
+
+#example::before {
 	background-color: #F27E62;
 }
 
 #use::before {
 	background-color: #FBB36B;
 }
+
 #extension::before {
 	background-color: #ABBC85;
 }
+
 #exercise::before {
+	background-color: #849B89;
+}
+
+#activity::before {
+	background-color: #849B89;
+}
+
+#task::before {
 	background-color: #849B89;
 }
 
