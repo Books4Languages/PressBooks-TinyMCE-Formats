@@ -63,7 +63,7 @@ This is a plugin for Wordpress (tested on 4.3)
 This plugin uses some styles from PressBooks, thus you should have installed and
 activated this plugin (tested on 2.4.5).
 
-If you are using the Restriction option for the content from the box, you should have installed pippinsplugins/Restrict-Content-Pro (tested on 2.x.x)
+If you are using the Restriction option for the content from the box, you should have installed pippinsplugins/Restrict-Content-Pro (tested on 2.2.5)
 
 
 ## Installation
