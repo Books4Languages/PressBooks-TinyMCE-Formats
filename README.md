@@ -4,7 +4,7 @@
 
 ### About
 
-With PressBooks-TinyMCE-Formats you can split the information of one page in the 3
+With PressBooks-TinyMCE-Formats for Wordpress you can split the information of one page in the 3
 formats of language: form, use and content.
 (Future development news formats for well structured page)
 
@@ -58,11 +58,12 @@ You can not use more than one box in one page if you want to make dynamic querie
 
 
 ## Requirements
+This is a plugin for Wordpress (tested on 4.3)
 
 This plugin uses some styles from PressBooks, thus you should have installed and
-activated this plugin (tested on 2.4.2).
+activated this plugin (tested on 2.4.5).
 
-If you are using the Restriction option for the content from the box, you should have installed pippinsplugins/Restrict-Content-Pro
+If you are using the Restriction option for the content from the box, you should have installed pippinsplugins/Restrict-Content-Pro (tested on 2.x.x)
 
 
 ## Installation
@@ -83,6 +84,9 @@ If you are using the Restriction option for the content from the box, you should
 
 
 ## Changelog
+
+### 0.6
+* New: Protection for content inside of the box
 
 ### 0.5
 * New: Examples box
