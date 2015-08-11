@@ -106,60 +106,60 @@ class TinyMCE_Formats_Public {
 	 *
 	 */
                 
-                 /**
+         /**
 		 * Restrict Elements
 		 */  
 //                if ( \Pressbooks\Book::isBook() && is_single()) { 
-//                    
-//               	/**
-//		 * Form 
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'2', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-form.js', array( 'jquery' ), $this->version, false );
-//                }
-//                
-//                 /**
-//		 * Use
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'3', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-use.js', array( 'jquery' ), $this->version, false );
-//                }
-//                
-//                
-//                 /**
-//		 *  Exercise 
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'4', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-exercise.js', array( 'jquery' ), $this->version, false );
-//                }
-//                
-//                   /**
+//               
+//       /**
 //		 *  Introduction 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'5', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-introduction.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'2', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-introduction.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
-//                 /**
+//                     
+//       /**
+//		 * Form 
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'3', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-form.js', array( 'jquery' ), $this->version, false );
+//                }
+//       /**
 //		 *  Example 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-example.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'4', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-example.js', array( 'jquery' ), $this->version, false );
 //                }
-//                    /**
+//                
+//       /**
+//		 * Use
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'5', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-use.js', array( 'jquery' ), $this->version, false );
+//                }
+//    
+//       /**
 //		 *   Extension 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'7', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- extension.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- extension.js', array( 'jquery' ), $this->version, false );
+//                }            
+//                
+//       /**
+//		 *  Exercise 
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'7', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-exercise.js', array( 'jquery' ), $this->version, false );
 //                }
-//                    /**
+//                
+//       /**
 //		 *   Activity 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- activity.js', array( 'jquery' ), $this->version, false );
 //                }
 //                
-//                     /**
+//       /**
 //		 *   Task 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
