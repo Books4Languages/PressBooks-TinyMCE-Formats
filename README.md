@@ -62,6 +62,9 @@ You can not use more than one box in one page if you want to make dynamic querie
 This plugin uses some styles from PressBooks, thus you should have installed and
 activated this plugin (tested on 2.4.2).
 
+If you are using the Restriction option for the content from the box, you should have installed pippinsplugins/Restrict-Content-Pro
+
+
 ## Installation
 
 1. Clone (or copy) this repository to the `/wp-content/plugins/` directory
