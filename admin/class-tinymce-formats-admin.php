@@ -218,7 +218,7 @@ class TinyMCE_Formats_Admin {
 					'title' => 'Extension'
 				),
 				'wrapper' => 'false'
-			)
+			),
 			array(
 				'title' => 'Exercise',
 				'block' => 'div',
@@ -228,7 +228,7 @@ class TinyMCE_Formats_Admin {
 					'title' => 'Exercise'
 				),
 				'wrapper' => 'false'
-			)
+			),
 			array(
 				'title' => 'Activity',
 				'block' => 'div',
@@ -238,7 +238,7 @@ class TinyMCE_Formats_Admin {
 					'title' => 'Activity'
 				),
 				'wrapper' => 'false'
-			)
+			),
 			array(
 				'title' => 'Task',
 				'block' => 'div',
