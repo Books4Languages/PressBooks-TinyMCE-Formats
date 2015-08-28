@@ -19,8 +19,39 @@ The code generating links to the boxes is located in
 ## Restrictet boxes
 
 ### Change the Restricted subscription, level and more
+Pressbooks-TinyMCE-Formats works with  [WordPress Restric Content Pro](https://pippinsplugins.com/products/restrict-content-pro/).
 
-Each format can be a box with specific content inside of it. In order to add a new rule for restric the acces to the boxes (by default it aply just [restrict]), open `public/class-tinymce-formats-public.php` and add your new rule. Example of rule of subscritpion id 1 in the box:  `if( rcp_is_active() && 1 == rcp_get_subscription_id() )`
+Each format can be a box with specific content inside of it. By default it aply just [restrict].
+
+#### Where to find the file
+Open: `public/class-tinymce-formats-public.php`
+
+#### Where to add the code
+In class-tinymce-formats-public.php,  at the bottom in function
+  public function enqueue_scripts() {}.
+
+  You can add the new code inside the Restrict Elements If block
+  
+#### Adding new format restriction to php
+
+
+### Adding the js file
+After the changing php file, you need to add a js file inside the ‘js’ folder (in the same location with php file)
+
+ File name shoul be the same like in the php file
+
+### Final step, adding the js code
+Just copy-paste from one of the other js files and only change the part ‘find("div#format_name")’
+
+
+
+
+
+
+
+
+
+Example of rule of subscritpion id 1 in the box:  `if( rcp_is_active() && 1 == rcp_get_subscription_id() )`
 
 
 ### Add a new format with restricted content
