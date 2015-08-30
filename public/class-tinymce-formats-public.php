@@ -142,7 +142,7 @@ class TinyMCE_Formats_Public {
 //		 *   Extension 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- extension.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-extension.js', array( 'jquery' ), $this->version, false );
 //                }            
 //                
 //       /**
@@ -156,14 +156,14 @@ class TinyMCE_Formats_Public {
 //		 *   Activity 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- activity.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-activity.js', array( 'jquery' ), $this->version, false );
 //                }
 //                
 //       /**
 //		 *   Task 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'9', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- task.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'9', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-task.js', array( 'jquery' ), $this->version, false );
 //                }
 //               
 //                
