@@ -13,7 +13,7 @@ We want to make the language courses more user-friendly. This is the first step.
 **Because the first step for teaching is organizing the ideas.**
 
 ### General Information
-Uses the [WordPress Plugin Boilerplate](/README-general-information).
+Read the [General Inforamtion](/README-general-information.md).
 
 
 ## Important information
