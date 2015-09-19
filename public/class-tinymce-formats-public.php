@@ -74,7 +74,7 @@ class TinyMCE_Formats_Public {
 		 */
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/tinymce-formats-public.css', array(), $this->version, 'all' );
-
+                wp_enqueue_style( $this->plugin_name.'-jquery-ui', plugin_dir_url( __FILE__ ) . 'css/jquery-ui.css', array(), $this->version, 'all' );
 	}
 
 	/**
@@ -97,73 +97,67 @@ class TinyMCE_Formats_Public {
 		 */
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-public.js', array( 'jquery' ), $this->version, false );
-                
-                
-	/**
-	 * Add restriction levels to the boxes.
-	 *
-	 * @since    0.6
-	 *
-	 */
-                
-         /**
+                wp_enqueue_script( $this->plugin_name.'-links', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-public-links.js', array( 'jquery' ), $this->version, false );
+                wp_enqueue_script( $this->plugin_name.'-jquery-ui', plugin_dir_url( __FILE__ ) . 'js/jquery-ui.min.js', array( 'jquery' ), $this->version, false );
+
+                /**
 		 * Restrict Elements
 		 */  
 //                if ( \Pressbooks\Book::isBook() && is_single()) { 
-//               
-//       /**
-//		 *  Introduction 
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'2', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-introduction.js', array( 'jquery' ), $this->version, false );
-//                }
-//                     
-//       /**
+//                    
+//               	/**
 //		 * Form 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'3', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-form.js', array( 'jquery' ), $this->version, false );
-//                }
-//       /**
-//		 *  Example 
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'4', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-example.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'2', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-form.js', array( 'jquery' ), $this->version, false );
 //                }
 //                
-//       /**
+//                 /**
 //		 * Use
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'5', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-use.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'3', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-use.js', array( 'jquery' ), $this->version, false );
 //                }
-//    
-//       /**
-//		 *   Extension 
-//		 */     
-//                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-extension.js', array( 'jquery' ), $this->version, false );
-//                }            
 //                
-//       /**
+//                
+//                 /**
 //		 *  Exercise 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'7', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-exercise.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'4', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-exercise.js', array( 'jquery' ), $this->version, false );
 //                }
 //                
-//       /**
+//                   /**
+//		 *  Introduction 
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'5', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-introduction.js', array( 'jquery' ), $this->version, false );
+//                }
+//                
+//                 /**
+//		 *  Example 
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-example.js', array( 'jquery' ), $this->version, false );
+//                }
+//                    /**
+//		 *   Extension 
+//		 */     
+//                if( !rcp_is_active() ){ //hiding information
+//                wp_enqueue_script( $this->plugin_name.'7', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- extension.js', array( 'jquery' ), $this->version, false );
+//                }
+//                    /**
 //		 *   Activity 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-activity.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- activity.js', array( 'jquery' ), $this->version, false );
 //                }
 //                
-//       /**
+//                     /**
 //		 *   Task 
 //		 */     
 //                if( !rcp_is_active() ){ //hiding information
-//                wp_enqueue_script( $this->plugin_name.'9', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-task.js', array( 'jquery' ), $this->version, false );
+//                wp_enqueue_script( $this->plugin_name.'9', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- task.js', array( 'jquery' ), $this->version, false );
 //                }
 //               
 //                
