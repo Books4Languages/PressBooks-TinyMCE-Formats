@@ -47,21 +47,25 @@ If you are using the Restriction option for the content from the box, you should
 
 
 ## Changelog
+### 1.0
+* tweak: New pop up for “link to a box”.
+* tweak: Change the bottom for link copy.
+* Fix several bugs.
 
 ### 0.6
-* New: Protection for content inside of the box
+* New: Protection for content inside of the box (restrict-content-pro).
 
 ### 0.5
-* New: Examples box
-* New: Activities box
-* New: Task box
+* New: Examples box.
+* New: Activities box.
+* New: Task box.
 
 ### 0.4
-* New: Introduction box
-* New: of Extension box
-* tweak: Change the bottom for link copy & to &#x2398
-* tweak: Renamed the plugin to *PressBooks-TinyMCE-Formats*
-* Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
+* New: Introduction box.
+* New: of Extension box.
+* tweak: Change the bottom for link copy & to &#x2398.
+* tweak: Renamed the plugin to *PressBooks-TinyMCE-Formats*.
+* Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats.
 
 ### 0.3
 * Renamed the plugin to *TinyMCE-Formats*.
