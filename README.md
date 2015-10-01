@@ -37,13 +37,16 @@ If you are using the Restriction option for the content from the box, you should
 ## Screenshots
 
 ### An example of use of boxes in the dashboard.
-![An example of use of boxes in the dashboard.](assets/screenshot-3.png)
+![An example of use of boxes in the dashboard.](PressBooks-TinyMCE-Formats
+/assets/screenshot-3.png)
 
 ### The format drop-down with the custom formats.
-![The format drop-down with the custom formats.](assets/screenshot-4.png)
+![The format drop-down with the custom formats.](PressBooks-TinyMCE-Formats
+/assets/screenshot-4.png)
 
 ### An example of use of boxes in the front-end.
-![An example of use of boxes in the front-end.](assets/screenshot-5.png)
+![An example of use of boxes in the front-end.](PressBooks-TinyMCE-Formats
+/assets/screenshot-5.png)
 
 
 ## Changelog
