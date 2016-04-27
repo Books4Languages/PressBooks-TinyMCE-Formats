@@ -47,7 +47,7 @@ If you are using the Restriction option for the content from the box, you should
 
 
 ## Changelog
-### 1.0
+### 0.7
 * tweak: New pop up for “link to a box”.
 * tweak: Change the bottom for link copy.
 * Fix several bugs.
