@@ -1,0 +1,87 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.box {
+    padding: 0 5px 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f6f9fa;
+    /* #f9fbfc; */
+    /* #f3f7f9; */
+}
+
+    .box::before {
+        content: attr(title);
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 1.4em;
+        font-family: "Roboto Condensed", sans-serif;
+        font-variant: small-caps;
+        background-color: black;
+        padding: 15px 0 15px;
+        margin: 0 -5px 1%;
+        border-radius: 5px 5px 0 0;
+    }
+
+#introduction::before {
+    background-color: #E15B64;
+}
+
+#form::before {
+    background-color: #F27E62;
+}
+
+#example::before {
+    background-color: #F27E62;
+}
+
+#use::before {
+    background-color: #FBB36B;
+}
+
+#extension::before {
+    background-color: #ABBC85;
+}
+
+#exercise::before {
+    background-color: #849B89;
+}
+
+#activity::before {
+    background-color: #849B89;
+}
+
+#task::before {
+    background-color: #849B89;
+}
+
+/* Used in "Link to this element" */
+.box footer {
+    padding-top: 3px;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+    left: 42% !important;
+    position: fixed !important;
+    top: 20% !important;
+}
+
+@media screen and (max-width: 560px) {
+    .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+        width: 150px !important;
+        font-size: 0.8em !important;
+        left: 45% !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+        left: 35% !important;
+    }
+}
+
+
