@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats

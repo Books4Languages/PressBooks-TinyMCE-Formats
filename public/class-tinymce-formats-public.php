@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats
@@ -102,65 +102,65 @@ class TinyMCE_Formats_Public {
 
                 /**
 		 * Restrict Elements
-		 */  
-//                if ( \Pressbooks\Book::isBook() && is_single()) { 
-//                    
+		 */
+//                if ( \Pressbooks\Book::isBook() && is_single()) {
+//
 //               	/**
-//		 * Form 
-//		 */     
+//		 * Form
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'2', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-form.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
+//
 //                 /**
 //		 * Use
-//		 */     
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'3', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-use.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
-//                
+//
+//
 //                 /**
-//		 *  Exercise 
-//		 */     
+//		 *  Exercise
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'4', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-exercise.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
+//
 //                   /**
-//		 *  Introduction 
-//		 */     
+//		 *  Introduction
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'5', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-introduction.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
+//
 //                 /**
-//		 *  Example 
-//		 */     
+//		 *  Example
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'6', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict-example.js', array( 'jquery' ), $this->version, false );
 //                }
 //                    /**
-//		 *   Extension 
-//		 */     
+//		 *   Extension
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'7', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- extension.js', array( 'jquery' ), $this->version, false );
 //                }
 //                    /**
-//		 *   Activity 
-//		 */     
+//		 *   Activity
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'8', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- activity.js', array( 'jquery' ), $this->version, false );
 //                }
-//                
+//
 //                     /**
-//		 *   Task 
-//		 */     
+//		 *   Task
+//		 */
 //                if( !rcp_is_active() ){ //hiding information
 //                wp_enqueue_script( $this->plugin_name.'9', plugin_dir_url( __FILE__ ) . 'js/tinymce-formats-restrict- task.js', array( 'jquery' ), $this->version, false );
 //                }
-//               
-//                
+//
+//
 //                }
 	}
 

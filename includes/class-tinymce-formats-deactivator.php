@@ -3,7 +3,7 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats

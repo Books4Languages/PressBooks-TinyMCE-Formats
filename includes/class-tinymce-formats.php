@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats

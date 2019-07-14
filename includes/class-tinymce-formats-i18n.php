@@ -6,7 +6,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats

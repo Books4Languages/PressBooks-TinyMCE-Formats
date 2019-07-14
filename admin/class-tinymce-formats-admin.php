@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://on-lingua.com
+ * @link       https://
  * @since      0.1
  *
  * @package    TinyMCE_Formats
@@ -118,7 +118,7 @@ class TinyMCE_Formats_Admin {
 		 * https://github.com/pressbooks/pressbooks)
 		 * Information on parameters can be found at:
 		 * http://www.tinymce.com/wiki.php/Configuration:formats
-		 * section “Format parameters�?.
+		 * section “Format parameters��?.
 		 */
 		$style_formats = array(
 			/*
@@ -128,7 +128,7 @@ class TinyMCE_Formats_Admin {
 				// Defines the HTML tag used to wrap elements
 				// into
 				// here, it is a block element, suited for
-				// “paragraph�?-wide formatting
+				// “paragraph��?-wide formatting
 				'block' => 'h1'
 			),
 			array(
@@ -136,7 +136,7 @@ class TinyMCE_Formats_Admin {
 				// Defines the HTML tag used to wrap elements
 				// into
 				// Here, it is an inline element, suited for
-				// “character�?-wide formatting
+				// “character��?-wide formatting
 				'inline' => 'span'
 				// Defines the classe(s) the HTML tag used by
 				// this format has to have

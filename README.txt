@@ -1,14 +1,18 @@
-=== TinyMCE Formats ===
-Contributors: 
-Donate link: 
-Tags: learning, languages, tinymce, Pressbooks
+=== TinyMCE Formats for PressBooks ===
+Contributors: colomet,
+Donate link: https://opencollective.com/mylanguageskills
+Tags: multisite, pressbooks, learning, languages, tinymce,
 Requires at least: 3.0.1
-Tested up to: 4.2.2
+Tested up to: 5.2.2
+Requires PHP: 5.6
 Stable tag: 0.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Extended language formats features for TinyMCE Editor.
+
+**Only works with multisite installation!**
+**Only works with PressBooks installation!**
 
 == Description ==
 
@@ -74,13 +78,29 @@ You can not use more than one box in one page if you want to make dynamic querie
 
 == Requirements ==
 
-This plugin uses some styles from PressBooks, thus you should have installed and
-activated this plugin (tested on 2.4.2).
+= This plugin requires: =
 
-== Installation ==
+* Wordpress Multisite installation
+* PressBooks plugin activated
 
-1. Clone (or copy) this repository to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+= Installation instructions: =
+
+This section describes how to install the plugin and get it working.
+
+1. Clone (or copy) this repository folder `tinymce-formats-for-pressbooks
+` to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress
+
+== Frequently Asked Questions ==
+
+= I have a feature request, I've found a bug, a plugin is incompatible... =
+
+Please visit [the support forums](https://wordpress.org/support/plugin/tinymce-formats-for-pressbooks)
+
+= I am a developer; how can I help? =
+
+Any input is much appreciated, and everything will be considered.
+Please visit the [GitHub project page](https://github.com/my-languag-skills/tinymce-formats-for-pressbooks) to submit issues or even pull requests.
 
 == Screenshots ==
 
