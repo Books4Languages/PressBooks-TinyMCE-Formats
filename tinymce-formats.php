@@ -17,12 +17,14 @@
  * Plugin URI:        http://on-lingua.com/
  * Description:       Adds learning formats (i.e. “Form”, “Use” or “Exercise”) shaped as boxes to the TinyMCE editor.
  * Version:           0.7
+ * Pressbooks tested up to: 5.10
  * Author:            My Language Skills
  * Author URI:        http://on-lingua.com/
  * License:           GPL-3.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       tinymce-formats
  * Domain Path:       /languages
+ * Network: 					True
  */
 
 // If this file is called directly, abort.
