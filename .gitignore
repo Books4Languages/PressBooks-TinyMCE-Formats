@@ -21,6 +21,8 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
+.ftpconfig
+
 
 # Dreamweaver added files
 _notes
