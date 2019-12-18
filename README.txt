@@ -1,136 +1,58 @@
-=== TinyMCE Formats for PressBooks ===
-Contributors: colomet,
-Donate link: https://opencollective.com/mylanguageskills
-Tags: multisite, pressbooks, learning, languages, tinymce,
-Requires at least: 3.0.1
-Tested up to: 5.2.2
-Requires PHP: 5.6
-Stable tag: 0.4
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+# TinyMCE formats for Pressbooks
 
-Extended language formats features for TinyMCE Editor.
+* Contributors: @colomet @araldGarbo
+* Donate link: https://opencollective.com/mylanguageskills
+* Tags: multisite, pressbooks, wordpress plugin
+* Requires at least: 3.0.1?
+* Tested up to: 5.2.2?
+* Requires PHP: 5.6.0?
+* Stable tag: 0.8?
+* License: GNU 3.0
+* License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-**Only works with multisite installation!**
-**Only works with PressBooks installation!**
+A WordPress plugin that extends PressBooks with new image sizes and Feature images.
 
-== Description ==
+## Community / Support
 
-= About =
+You can contact us via our [chat](https://gitter.im/books4languages/)  and talk to us.
 
-With TinyMCE-Formats you can split the information of one page in the 3
-formats of language: form, use and content.
+## Description
 
-We want to make the language courses more user-friendly. This is the first step.
+TinyMCE for Pressbooks extends PressBooks editor by adding a dropdown menu that prints in the editor the choosen box.
 
-/* under development - Not available
+You can choose one of the following items: Introduction, Form, Example, Use, Summary, Exercise, Activity and Task.
+Once the choice is made, a new box will appear in the editor.
 
-We also recommend the use of the `<!--nextpage-->` tag every time you want to
-split the screen in different pages, so it is easier to read and find
-*/
+The structure of the box consists of a title centered (the choice made) and a editable textbox below the title.
 
-**Because the first step for teaching is organizing the ideas.**
+## Installation
 
-= General Information =
+1. Clone or download this repository to your host ```/wp-content/plugins/```.
+1. Activate the plugin through the 'Plugins' screen in WordPress.
 
-Our working definition of language encompasses five structural components:
-phonology, semantics, syntax, morphology, and pragmatics.
+## Frequently Asked Questions
 
-* **Phonology** refers to the sounds and the intonation patterns that are
-  associated with spoken language.
-* **Semantics** encompasses the words of a language and the meanings associated
-  with those words.
-* **Syntax** describes the grammatical rules of a language—how words combine
-  into phrases and sentences.
-* **Morphology** refers to the rules that govern the use of morphemes. Morphemes
-  are the smallest units of meaning in a language, including the prefixes and
-  suffixes that mark syntactic and semantic information, such as number (i.e.,
-  plurals), gender, and tense (i.e., past, present, or future).
-* Finally, **pragmatics** is how we adjust our speech to our audience and use
-  language toward the goal of communication.
+## Requirements
 
-To better address typical and atypical language development as well as
-strategies of prevention and intervention, the five structural components of
-language may be simplified into three essential aspects of communication:
-content, form, and use (Bloom & Lahey, 1978).
+Plugin works with:
 
-* **Introduction** is the place were we offer importan information from past levels.
-* **Form** is the way in which meaning is represented, including speech, sign
-  language, and writing. In the context of spoken language, form encompasses
-  phonology, morphology, and syntax.
-* **Use** refers to the function of language in context.
-* **Extension** refers to the implication of content and translation to different languages.
-* **Content** refers to the semantics of language—the concepts and ideas that
-are encoded in words.
+ * [![Pressbooks](https://img.shields.io/badge/Pressbooks-V%205.3.0-red.svg)](https://github.com/pressbooks/pressbooks/releases/tag/5.3.0)
 
-Although each of these aspects of language can be identified separately, they
-are inherently interconnected elements in communication (Bloom & Lahey).
-Language problems may arise when there is a disruption within any one component
-of the model or in their integration.
+## Disclaimers
 
-In order to increase the information, we add one paper to the box.
+The TinyMCE for Pressbooks plugin is supplied "as is" and all use is at your own risk.
 
-Additional information is available in the `Information` directory.
+## Screenshots
 
-== Important information ==
+## Roadmap
 
-You can not use more than one box in one page if you want to make dynamic queries.
+## Changelog
 
-== Requirements ==
+### 2.0
+* **ADDITIONS**
+    * New function that create a dropdown menu in TinyMCE editor of Pressbooks.
+    * Print a new textbox based on the choice made
 
-= This plugin requires: =
+## Upgrade Notice
 
-* Wordpress Multisite installation
-* PressBooks plugin activated
-
-= Installation instructions: =
-
-This section describes how to install the plugin and get it working.
-
-1. Clone (or copy) this repository folder `tinymce-formats-for-pressbooks
-` to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress
-
-== Frequently Asked Questions ==
-
-= I have a feature request, I've found a bug, a plugin is incompatible... =
-
-Please visit [the support forums](https://wordpress.org/support/plugin/tinymce-formats-for-pressbooks)
-
-= I am a developer; how can I help? =
-
-Any input is much appreciated, and everything will be considered.
-Please visit the [GitHub project page](https://github.com/my-languag-skills/tinymce-formats-for-pressbooks) to submit issues or even pull requests.
-
-== Screenshots ==
-
-1. An example of use of boxes in the dashboard.
-1. The format drop-down with the custom formats.
-
-== Changelog ==
-= 0.4 =
-* New: Introduction box
-* New: of Extension box
-* tweak: Change the bottom for link copy & to &#x2398
-* Fix: file name of the plugin in tinymce-formats.php to: Pressbooks TinyMCE-Formats
-
-= 0.3 =
-* Renamed the plugin to *TinyMCE-Formats*.
-
-= 0.2 =
-* Smaller padding within boxes.
-* Smaller “link to a box” anchor text.
-* Removed duplicate formats.
-* Added “Text box” format (from PressBooks).
-* Added PressBooks in required plugins.
-* Code comments for easier plugin extending.
-
-= 0.1 =
-* Initial version.
-
-== Credits ==
-
-Uses the [WordPress Plugin Boilerplate](http://wppb.io/).
-
-Color palette by somurmujo http://adobe.ly/1pJTUkD
-
+## Credits

@@ -1,0 +1,130 @@
+/* Css file for editor back-end */
+
+/**
+* Introduction title customization
+*
+*/
+div.textbox.textbox--introduction header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Form title customization
+*
+*/
+div.textbox.textbox--form header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Example title customization
+*
+*/
+div.textbox.textbox--example header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Use title customization
+*
+*/
+div.textbox.textbox--use header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Extension title customization
+*
+*/
+div.textbox.textbox--summary header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Exercise title customization
+*
+*/
+div.textbox.textbox--exercise header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Activity title customization
+*
+*/
+div.textbox.textbox--activity header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Task title customization
+*
+*/
+div.textbox.textbox--task header.textbox__header h2.textbox__title{
+  color: white;
+  background-color: #BA0426;  /* Pressbooks red color */
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/**
+* Textbox content customization
+*
+*/
+div.textbox div.textbox__content{
+  color: black;
+  background-color: #DEDEDE; /* Pressbooks grey color */
+}
