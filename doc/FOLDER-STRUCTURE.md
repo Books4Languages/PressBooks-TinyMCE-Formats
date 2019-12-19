@@ -23,8 +23,19 @@ plugins/tinymce-formats-for-pressbooks/                                         
 │   └── tffp-mce-button.js                                                      # → Mce button file js  
 ├── languages                                                                   # → Js folder
 │   └── tinymce-formats-for-pressbooks.pot                                      # → Mce button file js    
-├── symbiont                                                                    # → Symbiont folder
+├── symbionts                                                                   # → Symbionts folder
 │   └── wp-anchor-header                                                        # → Wp anchor header plugin folder
+│       ├── css                                                                 # → Css folder
+│       │   └── achored-header.css                                              # → Achored header file php
+│       ├── readme.txt                                                          # → Readme file txt
+│       └── wp-anchor-header.php                                                # → Main symbiont file php
+├── wp-assets                                                                   # → Wp assets folder
+│   ├── banner-772x250.png                                                      # → Banner file png
+│   ├── banner-1544x500.png                                                     # → Banner file png
+│   ├── icon-128x128.png                                                        # → Icon file png
+│   ├── icon-256x256.png                                                        # → Icon file png
+│   ├── screenshot-1.png                                                        # → Screenshot 1 file png
+│   └── screenshot-2.png                                                        # → Screenshot 2 file png
 ├── .gitattributes                    
 ├── .gitignore     
 ├── index.php                                                                   # → Empty index file php
