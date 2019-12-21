@@ -73,12 +73,7 @@ class Anchor_Header {
 		libxml_use_internal_errors( $libxml_previous_state );
 		// END LibXML error management.
 
-		/**
-		* original array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ).
-		* we just need h2.
-		*/
-
-		foreach ( array( 'h2' ) as $h ) {
+		foreach ( array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ) as $h ) {
 			$headings = $doc->getElementsByTagName( $h );
 			foreach ( $headings as $heading ) {
 				$a = $doc->createElement( 'a' );
