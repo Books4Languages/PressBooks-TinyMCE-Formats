@@ -6,6 +6,7 @@
  *
  * Dictionary of words with same meanings used across:
  *  tffp == tinymce_formats_for_pressbooks
+ * https://wordpress.org/plugins/wp-anchor-header/ (dashicons) or https://wordpress.org/plugins/add-anchor-links/ can be use as anchor to headers.
  *
  * @link              https://github.com/my-language-skills/tinymce-formats-for-pressbooks
  * @since             2.0
@@ -23,14 +24,6 @@
  * Text Domain:       tinymce-formats-for-pressbooks
  */
 
- /**
- * Function used to include wp-anchor-header
- *
- * @since 2.0
- *
- */
- // include_once dirname( __FILE__ ) . '/symbionts/wp-anchor-header/wp-anchor-header.php';
-// include_once dirname( __FILE__ ) . "wp-anchor-header.php";
 
 /**
 * Hooks your function into the correct filters
