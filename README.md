@@ -3,10 +3,10 @@
 * Contributors: @colomet @araldGarbo
 * Donate link: https://opencollective.com/mylanguageskills
 * Tags: multisite, pressbooks, wordpress plugin
-* Requires at least: 3.0.1?
-* Tested up to: 5.2.2?
+* Requires at least: 3.0.1
+* Tested up to: 5.2.2
 * Requires PHP: 5.6.0?
-* Stable tag: 0.8?
+* Stable tag: 2.0
 * License: GNU 3.0
 * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -52,6 +52,9 @@ The TinyMCE for Pressbooks plugin is supplied "as is" and all use is at your own
 * **ADDITIONS**
     * New function that create a dropdown menu in TinyMCE editor of Pressbooks.
     * Print a new textbox based on the choice made
+    # Front-end styles are in child theme
+    # Back-end styles for boxes, h2, h3 and h4
+    # Remove the h1, h2 and Preformatted tag from the WordPress editor.
 
 ## Upgrade Notice
 
