@@ -55,6 +55,7 @@ The TinyMCE for Pressbooks plugin is supplied "as is" and all use is at your own
     # Front-end styles are in child theme
     # Back-end styles for boxes, h2, h3 and h4
     # Remove the h1, h2 and Preformatted tag from the WordPress editor.
+    # Remove the blockquote, hr, alignleft, aligncenter, alignright, wp_more, dfw, underline, alignjustify, outdent and indent TINYmce buttoms
 
 ## Upgrade Notice
 
