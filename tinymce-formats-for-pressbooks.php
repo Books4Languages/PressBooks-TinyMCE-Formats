@@ -25,6 +25,9 @@
  * Text Domain:       tinymce-formats-for-pressbooks
  */
 
+
+ include_once plugin_dir_path( __FILE__ ) . "tffp-unused-buttoms.php";
+
  /**
   *  Remove the h1 (1=h1), h2 (2=h2) and Preformatted (Preformatted=pre) tag from the WordPress editor.
   *
@@ -39,7 +42,7 @@
  }
  add_filter( 'tiny_mce_before_init', 'my_format_TinyMCE' );
 
- 
+
 /**
 * Hooks your function into the correct filters
 *
